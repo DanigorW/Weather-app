@@ -13,7 +13,7 @@ class Ui {
   }
 
   async ajax(city) {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${
       this.apiKey
     }&units=metric`;
 
